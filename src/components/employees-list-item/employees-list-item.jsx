@@ -31,6 +31,7 @@ class EmployeesListItem extends Component {
           className="list-group-item-label"
           data-toggle="rise"
           onClick={onToggleProp}
+          style={{ fontSize: "2em", color: "red" }}
         >
           {name}
         </span>
